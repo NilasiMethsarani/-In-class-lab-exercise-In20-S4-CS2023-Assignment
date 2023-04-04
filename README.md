@@ -17,7 +17,29 @@ The Stack class provides functions for adding and removing elements from the top
 
 Question 03
 
-Although arrays don't need space for pointers and may be accessed randomly, they are inefficient for memory allocation and insertion/deletion operations. Linked lists, on the other hand, are dynamic and have less time complexity for insertion and deletion. Nevertheless, linked lists take longer to search through, and pointers use more memory per list entry.
+In terms of time complexity, array and linked lists have different characteristics for different operations. Here's a comparison of the time complexity of some common operations on arrays and linked lists:
+
+Accessing an element:
+
+Array: O(1)
+Linked List: O(n)
+Inserting an element:
+
+Array:
+Inserting at the end: O(1) amortized, O(n) worst-case (if the array needs to be resized)
+Inserting at the beginning or in the middle: O(n)
+Linked List: O(1) if inserting at the beginning, O(n) if inserting at the end or in the middle
+Deleting an element:
+
+Array:
+Deleting at the end: O(1)
+Deleting at the beginning or in the middle: O(n)
+Linked List: O(1) if deleting at the beginning, O(n) if deleting at the end or in the middle
+Searching for an element:
+
+Array: O(n)
+Linked List: O(n)
+From the above, we can see that arrays are generally more efficient than linked lists for accessing elements, while linked lists are more efficient for inserting and deleting elements in the middle or at the beginning of the list. However, arrays are more efficient for deleting elements at the end. Searching is O(n) for both data structures.
 
 
 
