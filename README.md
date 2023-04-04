@@ -17,5 +17,7 @@ The Stack class provides functions for adding and removing elements from the top
 
 Question 03
 
+Although arrays don't need space for pointers and may be accessed randomly, they are inefficient for memory allocation and insertion/deletion operations. Linked lists, on the other hand, are dynamic and have less time complexity for insertion and deletion. Nevertheless, linked lists take longer to search through, and pointers use more memory per list entry.
+
 
 
