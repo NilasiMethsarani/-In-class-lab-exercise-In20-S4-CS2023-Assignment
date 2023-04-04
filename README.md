@@ -11,3 +11,11 @@ The isEmpty and isFull functions check if the stack is empty or full, respective
 
 Question 02
 
+The code provided is an implementation of a Stack data structure using a singly linked list in C++. The linked list is composed of a series of nodes, where each node contains an integer value and a pointer to the next node in the list.
+
+The Stack class provides functions for adding and removing elements from the top of the stack, checking if the stack is empty, returning the top element, and displaying the contents of the stack. The push() function adds a new node to the beginning of the list to represent the new element being added to the stack. The pop() function removes the head node from the list to represent the top element being removed from the stack. The isEmpty() function checks if the head pointer is null to determine if the stack is empty. The isFull() function always returns false since linked list implementation of the stack does not have a fixed size. The stackTop() function returns the value of the head node to represent the top element without removing it. The display() function prints the contents of the list starting from the head node.
+
+Question 03
+
+
+
